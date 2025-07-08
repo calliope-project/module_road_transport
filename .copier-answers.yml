@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier
+# DO NOT MANUALLY MODIFY THIS FILE
+_commit: latest
+_src_path: https://github.com/calliope-project/data-module-template.git
+author_email: f.sanvito@tudelft.nl
+author_family_name: Sanvito
+author_given_name: Francesco
+github_org: calliope-project
+license: Apache-2.0
+module_description: A module to generate road transport timeseries and annual values.
+module_long_name: Road transport module
+module_short_name: module_road_transport
