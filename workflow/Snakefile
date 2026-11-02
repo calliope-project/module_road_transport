@@ -23,8 +23,6 @@ include: "rules/dummy.smk"
 
 
 rule all:
-    message:
-        "ERROR: Invalid `rule all:` call"
     default_target: True
     output:
         "INVALID",
@@ -32,5 +30,7 @@ rule all:
         stderr="logs/all.stderr",
     conda:
         "envs/shell.yaml"
+    message:
+        "ERROR: Invalid `rule all:` call"
     shell:
         'echo "This workflow must be called as a snakemake module." > {log.stderr}'
